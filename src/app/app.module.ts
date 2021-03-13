@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-// import { FormsModule } from '@angular/forms' //TypeScript Feature
 
 import { AppComponent } from './app.component';
 
@@ -9,8 +8,7 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule,
-    // FormsModule //tells Angular to import forms features
+    BrowserModule
   ],
   providers: [],
   bootstrap: [AppComponent]
